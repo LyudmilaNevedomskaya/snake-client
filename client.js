@@ -7,6 +7,8 @@ const connect = function () {
 
   conn.Name = "Name: NLG";
 
+  conn.Message = "Say: I did it!!!"
+
   conn.on('data', (data) => {
     console.log(data);
   })
